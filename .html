@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocidade Média</title>
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+    <header>Velocidade Média</header>
+
+    <nav>
+        <ul>
+            <li><a href=".html" class="active">Home</a></li>
+            <li><a href=".html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h3>Cálculo</h3>
+        <input type="number" id="distancia" placeholder="Informe o valor do deslocamento">
+        <input type="number" id="tempo" placeholder="Informe o valor de tempo">
+        <div class="botao">
+            <button onclick="limpar()">Limpar</button>
+            <button onclick="calcular()">Calcular</button>
+        </div>
+        <input disabled type="number" id="velocidade" placeholder="Velocidade Média">
+    </div>
+
+    <div class="container">
+        <h3>Resultados</h3>
+        <div id="resultado" rows="10"></div>
+    </div>
+
+    <footer>
+        <ul>
+            <li>SENAI SC</li>
+            <li>Curso de Desenvolvimento de Sistemas</li>
+            <li>Lógica de Programação</li>
+            <li>Liara Graminho Victor</li>
+        </ul>
+    </footer>
+
+    <script src=".js"></script>
+    
+</body>
+</html>
